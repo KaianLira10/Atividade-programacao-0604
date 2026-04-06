@@ -1,6 +1,6 @@
 #inicio 
  = int(input("Digite um número inteiro: "))
-if n >= 0:
+if n>=0:
     print("Positivo")
 else:
     print("Negativo")
@@ -8,21 +8,21 @@ else:
 
 #inicio
 
-n = int(input("Digite um número: "))
-print("Dobro:", n * 2)
+n=int(input("Digite um número: "))
+print("Dobro:",n * 2)
 #fim
 
 #inicio
 
-valor = input("Digite um valor: ")
+valor=input("Digite um valor: ")
 print("Valor digitado:",valor)
-print("Tipo:", type(valor))
+print("Tipo:",type(valor))
 #fim
 
 #inicio
 
-n = int(input("Digite um número: "))
-if n % 2 == 0:
+n=int(input("Digite um número: "))
+if n%2==0:
     print("Par")
 else:
     print("Ímpar")
@@ -30,22 +30,22 @@ else:
 
 #inicio
 
-texto = input("Digite um número: ")
+texto=input("Digite um número: ")
 n = int(texto)
 print("Triplo:",n * 3)
 #fim
 
 #inicio
 
-a = int(input("Digite o primeiro número: "))
-b = int(input("Digite o segundo número: "))
+a=int(input("Digite o primeiro número: "))
+b=int(input("Digite o segundo número: "))
 print("Maior:", a if a > b else b)
 #fim
 
 #inicio
 
-n = int(input("Digite um número: "))
-if n > 10:
+n=int(input("Digite um número: "))
+ifn>10:
     print("Maior que 10")
 else:
     print("Menor ou igual a 10")
@@ -53,8 +53,8 @@ else:
 
 #inicio
 
-n = int(input("Digite um número: "))
-if n > 0:
+n=int(input("Digite um número: "))
+ifn>0:
     print("Raiz aproximada:",n ** 0.5)
 else:
     print("Número inválido")
@@ -62,14 +62,14 @@ else:
 
 inicio
 
-valor = float(input("Digite um valor: "))
+valor=float(input("Digite um valor: "))
 print("Metade:", valor/2)
 #fim
 
 #inicio
 
-n = int(input("Digite um número: "))
-if 0 <= n <= 10:
+n=int(input("Digite um número: "))
+if 0<= n <= 10:
     print("Dentro do intervalo")
 else:
     print("Fora do intervalo")
@@ -77,7 +77,7 @@ else:
 
 #inicio
 
-n = int(input("Digite um número: "))
+n=int(input("Digite um número: "))
 
 if n % 2 == 0:  # é par
     if n >= 0:
@@ -89,8 +89,8 @@ else:
 #fim
 
 #inicio
-a = int(input("Digite o primeiro número: "))
-b = int(input("Digite o segundo número: "))
+a=int(input("Digite o primeiro número: "))
+b=int(input("Digite o segundo número: "))
 
 soma = a + b
 print("Soma:",soma)
