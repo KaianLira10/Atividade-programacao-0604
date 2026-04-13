@@ -1,1 +1,9 @@
-
+#inicio
+entrada = input("Digite um valor: ")
+print("Tipo da variável lida:", type(entrada))
+try:
+    valor = float(entrada)
+    print("Resultado da divisão por 2:", valor / 2)
+except:
+    print("Não numérico")
+#fim
