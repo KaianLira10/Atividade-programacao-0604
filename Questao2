@@ -1,6 +1,7 @@
 #inicio
-n=int(input("Digite um número: "))
+entrada = input("Digite um número: ")
 Digite um número: 6
-print("Dobro:",n * 2)
+num = int(entrada)
+print("Dobro:",num * 2)
 Dobro: 12
 #fim
