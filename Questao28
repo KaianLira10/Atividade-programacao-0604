@@ -1,1 +1,12 @@
-
+#inicio
+entrada = input("Digite um valor: ")
+try:
+    if "." in entrada:
+        valor = float(entrada)
+        print("Metade:", valor / 2)
+    else:
+        valor = int(entrada)
+        print("Dobro:", valor * 2)
+except:
+    print("Tipo inválido")
+#fim
