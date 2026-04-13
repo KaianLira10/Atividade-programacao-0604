@@ -1,1 +1,9 @@
-
+#inicio
+texto=input("Digite um número: ")
+Digite um número: 15
+n = int(texto)
+print(type(n))
+<class 'int'>
+print("Triplo:",n * 3)
+Triplo: 45
+#fim
