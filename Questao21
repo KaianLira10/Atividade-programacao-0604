@@ -1,1 +1,11 @@
-
+#inicio
+entrada = input("Digite um valor: ")
+try:
+    num = int(entrada)
+    if num > 10:
+        print("Alto")
+    else:
+        print("Baixo")
+except:
+    print("Entrada inválida")
+#fim
