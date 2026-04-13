@@ -1,1 +1,9 @@
-
+#inicio
+n = int(input("Digite um número: "))
+Digite um número: 15
+if 0 <= n <= 10:
+    print("Dentro do intervalo")
+else:
+    print("Fora do intervalo")
+Fora do intervalo
+#fim
