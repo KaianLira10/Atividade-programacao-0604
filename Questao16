@@ -1,0 +1,11 @@
+#inicio
+valor = input("Digite o valor: ")
+Digite o valor: 6
+print("Tipo:", type(valor))
+Tipo: <class 'str'>
+num = float(valor)
+print("Tipo:", type(num))
+Tipo: <class 'float'>
+print("Quadrado:", num ** 2)
+Quadrado: 36.0
+#fim
