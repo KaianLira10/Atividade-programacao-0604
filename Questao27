@@ -1,1 +1,8 @@
-
+#inicio
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+if a > 0 and b > 0:
+    print("Soma:", a + b)
+else:
+    print("Produto:", a * b)
+#fim
