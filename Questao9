@@ -1,1 +1,9 @@
-
+#inicio
+n=input("digite um valor: ")
+digite um valor: 20
+f=float(n)
+print(type(f))
+<class 'float'>
+print("Metade:", f / 2)
+Metade: 10.0
+#fim
