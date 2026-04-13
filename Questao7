@@ -1,1 +1,10 @@
+#inicio
+n = int(input("Digite um número: "))
+Digite um número: 15
+if n > 10:
+    print("Maior que 10")
+else:
+    print("Menor ou igual a 10")
+Menor ou igual a 10
+#fim
 
