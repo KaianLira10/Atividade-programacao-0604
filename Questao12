@@ -1,1 +1,16 @@
-
+#inicio
+... a = int(input("Digite o primeiro número: "))
+Digite o primeiro número: 10
+>>> b = int(input("Digite o segundo número: "))
+Digite o segundo número: 7
+>>> print("Soma:", a + b)
+Soma: 17
+>>> if a > b:
+...     print("Maior:", a)
+... elif b > a:
+...     print("Maior:", b)
+... else:
+...     print("Os números são iguais")
+...
+Maior: 10
+#fim
