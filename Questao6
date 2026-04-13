@@ -1,1 +1,13 @@
-
+#inicio
+a = int(input("Digite o primeiro número: "))  # Exemplo: 12
+b = int(input("Digite o segundo número: "))   # Exemplo: 9
+Digite o primeiro número: 12
+Digite o segundo número: 9
+if a > b:
+    print("Maior:", a)
+elif b > a:
+    print("Maior:", b)
+else:
+    print("Os números são iguais")
+Maior: 12
+#fim
