@@ -1,0 +1,11 @@
+#inicio
+a = int(input("Digite o primeiro número: "))
+Digite o primeiro número: 10
+b = int(input("Digite o segundo número: "))
+Digite o segundo número: 4
+if a == b:
+  print("Iguais")
+else:
+  print("Diferentes, diferença:", abs(a - b))
+Diferentes, diferença: 6
+#fim
