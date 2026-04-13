@@ -1,5 +1,6 @@
 #inicio
 entrada = input("Digite um valor: ")
+digite um valor:7
 try:
     num = int(entrada)
     if num % 2 == 0:
@@ -11,4 +12,5 @@ try:
         print("Ímpar")
 except:
     print("Entrada inválida")
+impar
 #fim
