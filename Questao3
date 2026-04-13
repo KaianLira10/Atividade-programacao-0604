@@ -1,1 +1,9 @@
 
+#inicio
+valor=input("Digite um valor: ")
+Digite um valor: 15
+print("Valor digitado:",valor)
+Valor digitado: 15
+print("Tipo:",type(valor))
+Tipo: <class 'str'>
+#fim
