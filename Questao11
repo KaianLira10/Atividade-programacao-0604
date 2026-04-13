@@ -1,0 +1,12 @@
+#inicio
+n = int(input("Digite um número: "))
+Digite um número: 6
+if n % 2 == 0:  # é par
+    if n > 0:
+        print("Par positivo")
+    else:
+        print("Par negativo")
+else:
+    print("Ímpar")
+Par positivo
+#fim
